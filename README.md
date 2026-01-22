@@ -12,8 +12,8 @@ El problema a resolver consiste en encontrar la **máxima cantidad de rectángul
 
 > Para referencia, el enunciado completo y la explicación detallada están en:
 >
-> - 📄 [docs/00_ENUNCIADO.md](junior/python/docs/00_ENUNCIADO.md)
-> - 📘 [docs/01_DETALLE_CASOS.md](junior/python/docs/01_DETALLE_CASOS.md)
+> - 📄 [docs/00_ENUNCIADO.md](docs/00_ENUNCIADO.md)
+> - 📘 [docs/01_DETALLE_CASOS.md](docs/01_DETALLE_CASOS.md)
 
 ---
 
