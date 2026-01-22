@@ -16,11 +16,11 @@ El objetivo de este ejercicio es poder entender tus habilidades como programador
 
 El problema a resolver consiste en encontrar la máxima cantidad de rectángulos de dimensiones “a” y “b” (paneles solares) que caben dentro de un rectángulo de dimensiones “x” e “y” (techo), según se muestra en la siguiente figura:
 
-![Figura 1](../images/1.webp)
+![Figura 1](images/1.webp)
 
 Por ejemplo, podríamos decir que en el siguiente ejemplo caben 5 rectángulos de dimensiones 1 y 2, en un rectángulo de dimensiones 3 y 5.
 
-![Figura 2](../images/2.webp)
+![Figura 2](images/2.webp)
 
 **¿O caben más? 👀**
 
@@ -55,13 +55,13 @@ Te dejamos dos alternativas que puedes intentar resolver también. Pero ojo que 
 
 Repetir el ejercicio base, considerando un techo triangular, isósceles.
 
-![Figura 3](../images/3.webp)
+![Figura 3](images/3.webp)
 
 #### Opción 2
 
 Repetir el ejercicio base considerando dos rectángulos iguales superpuestos. Puedes parametrizar la superposición entre ambos rectángulos.
 
-![Figura 4](../images/4.webp)
+![Figura 4](images/4.webp)
 
 ---
 
