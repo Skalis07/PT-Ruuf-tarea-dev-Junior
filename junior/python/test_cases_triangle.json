@@ -1,0 +1,32 @@
+{
+  "testCases": [
+    {
+      "panelW": 1,
+      "panelH": 2,
+      "baseW": 4,
+      "heightH": 4,
+      "expected": 2
+    },
+    {
+      "panelW": 2,
+      "panelH": 3,
+      "baseW": 10,
+      "heightH": 6,
+      "expected": 3
+    },
+    {
+      "panelW": 3,
+      "panelH": 3,
+      "baseW": 5,
+      "heightH": 4,
+      "expected": 0
+    },
+    {
+      "panelW": 1,
+      "panelH": 1,
+      "baseW": 5,
+      "heightH": 5,
+      "expected": 10
+    }
+  ]
+}
