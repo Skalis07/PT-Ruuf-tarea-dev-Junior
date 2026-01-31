@@ -102,3 +102,13 @@ La solución debe pasar los siguientes casos de prueba:
 - Esta estrategia entrega una solución **válida**, pero no garantiza el óptimo global ya que no permite paneles cruzando particiones.
 
 ---
+
+## RESULTADO
+
+Descarte por falla en tests ocultos. La implementación priorizó escalabilidad (heurística con un solo corte) sobre optimalidad global, por lo que no garantizó el máximo en todos los casos.
+
+## Teoría del fallo y supuestos
+
+**Teoría del fallo:** el algoritmo base usa una heurística de “un solo corte” (vertical u horizontal) para mezclar orientaciones. Eso no explora configuraciones más complejas (no‑guillotina), por lo que existen casos donde la cantidad máxima requiere más de un corte o una disposición tipo “tetris”. En esos escenarios, el algoritmo puede subestimar el óptimo y fallar tests ocultos.
+
+**Supuesto clave en la solución:** asumí que una mezcla con un único corte era suficiente para representar los casos relevantes y que el énfasis estaba en una solución simple y escalable. Ese supuesto no garantiza el óptimo global.
